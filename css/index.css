@@ -422,3 +422,43 @@ header .sign-group .sub-menu li a:hover {
     flex: 1;
     border-left: 1px solid #e5e5e5;
 }
+
+/* FOOTER */
+footer {}
+
+footer .inner {
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+}
+
+footer .inner .site-links {
+    display: flex;
+}
+
+footer .inner .site-links li {
+    font-size: 12px;
+    margin-right: 10px;
+    color: #767676;
+}
+
+footer .inner .site-links li a {
+    color: #4078c0;
+}
+
+footer .inner .site-links li a:hover {
+    text-decoration: underline;
+}
+
+
+footer .inner .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer .inner .logo svg {}
+
+footer .inner .logo:hover svg {
+    fill: #4078c0;
+}
