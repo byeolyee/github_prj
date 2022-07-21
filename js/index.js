@@ -1,3 +1,18 @@
+
+const toggles = document.querySelectorAll('.toggle');
+const toggleBtn = document.querySelector('#toggle-btn');
+
+toggleBtn.addEventListener('click', function () {
+    toggleElements();
+});
+
+function toggleElements() {
+    const toggleArr = [];
+    toggleArr.forEach.call(toggles, function (toggle) {
+        toggle.classList.toggle('on');
+    });
+}
+
 function initMap() {
     const myLatLng = {
         lat: 37.782293,
