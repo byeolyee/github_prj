@@ -463,9 +463,3 @@ footer .inner .logo svg {}
 footer .inner .logo:hover svg {
     fill: #4078c0;
 }
-
-/* MEDIA */
-
-#toggle-btn {
-    display: none;
-}
